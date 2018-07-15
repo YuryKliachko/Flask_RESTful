@@ -22,7 +22,7 @@ def create_tables():
 @app.route('/')
 def hello_page():
     return 'Hello world!'
-#this is a new comment
+#this is a new comment again
 jwt = JWT(app, authenticate, identity)
 
 api.add_resource(Store, '/store/<string:name>')
